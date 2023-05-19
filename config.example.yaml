@@ -1,0 +1,6 @@
+# You could use this file directly, or you should rename this file to config.yaml when using it. 
+# NEVER SAVE SENSETIVE INFORMATION IN THIS FILE!!!
+# Your api_key should be saved in config.yaml, and you should never upload it to github.
+openAI:
+  api_key: YOUR_API_KEY
+  proxy: 127.0.0.1:1080
