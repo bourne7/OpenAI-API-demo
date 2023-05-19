@@ -202,7 +202,9 @@ docker.md
 *.pem
 
 pkg
-# 方便在本地放一些不用上传给 github 的文档，只需要在本地建立一个 ignore 文件夹，然后把需要忽略的文件放进去就行了
+# To conveniently store documents locally without uploading them to GitHub, 
+# you can create an "ignore" folder on your local machine and place the files 
+# you want to ignore inside it.
 ignore
 logs
 
