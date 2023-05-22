@@ -117,7 +117,7 @@ def fine_tunes_list_job():
         print(table)
 
 
-def fine_tunes_retreve_job():
+def fine_tunes_retrieve_job():
     message = """
 Please input the job id (such as 'ft-XXXX') you want details about or:
 r: return to main menu
@@ -212,7 +212,7 @@ Official API: https://platform.openai.com/docs/api-reference/fine-tunes
 
 21: fine_tunes_create_job
 22: fine_tunes_list_job
-23: fine_tunes_retreve_job
+23: fine_tunes_retrieve_job
 24: fine_tunes_cancel_job
 25: fine_tunes_list_events
 26: fine_tunes_list_model
@@ -233,7 +233,7 @@ q: quit program
         elif choice == "22":
             fine_tunes_list_job()
         elif choice == "23":
-            fine_tunes_retreve_job()
+            fine_tunes_retrieve_job()
         elif choice == "24":
             fine_tunes_cancel_job()
         elif choice == "25":
